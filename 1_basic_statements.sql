@@ -1,6 +1,3 @@
--- Create a new file called select_exercises.sql. 
--- Store your code for this exercise in that file. You should be testing your code in MySQL Workbench as you go.
-
 -- Use the albums_db database.
 
 USE albums_db;
@@ -67,10 +64,3 @@ SELECT name, artist, release_date
 SELECT name, artist, sales
   FROM albums
   WHERE sales < 20;
-
--- f. All the albums with a genre of "Rock". Why do 
--- these query results not include albums with a 
--- genre of "Hard rock" or "Progressive rock"?
-
-USE albums_db;
--- Be sure to add, commit, and push your work.
